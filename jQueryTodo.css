@@ -1,0 +1,178 @@
+/* Body Styles */
+body {
+  margin: 0;
+  padding: 1em;
+  font-family: cursive;
+  background: #00c3ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* End of Body Styles */
+
+/* Header Styles */
+header {
+  margin-top: 5px;
+}
+
+header h1 {
+  color: #525252;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+header h1 span {
+  color: rgba(245, 245, 245, 0.836);
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.header {
+  width: 360px;
+  margin: 0 auto;
+}
+
+.bottomLines {
+  margin: 0 auto;
+  width: 295px;
+}
+
+.header h1 {
+  text-align: center;
+  margin-right: 30px;
+}
+
+div.line1 {
+  display: inline-block;
+  background: #FDB44B;
+  width: 90px;
+  height: 5px;
+}
+
+div.line2 {
+  display: inline-block;
+  background: #F71E35;
+  width: 90px;
+  height: 5px;
+}
+
+div.line3 {
+  display: inline-block;
+  background: #0066B3;
+  width: 90px;
+  height: 5px;
+}
+
+#how {
+  background: none;
+  color: #525252;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-left: 90px;
+}
+
+#guide {
+  width: max-content;
+}
+
+#guideList {
+  background: none;
+  line-height: 1.2;
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+#guidePlus {
+  color: whitesmoke;
+  float: right;
+  padding-right: 100px;
+}
+
+/* End of Header Styles */
+
+
+/* Todo List Styles */
+.container {
+  width: 550px;
+  margin: 20px auto;
+  box-shadow: 0 0 3PX rgba(0, 0, 0, 0.1);
+  background: #f7f7f7;
+}
+
+h2 {
+  background: #0066B3;
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+input {
+  font-size: 18px;
+  background: #f7f7f7;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  color: #0066B3;
+  font-family: cursive;
+  outline-style: none;
+  border: 3px solid rgba(0, 0, 0, 0);
+  display: none;
+}
+
+input:focus {
+  background: white;
+  border: #0066B3 3px solid;
+  outline-style: none;
+}
+
+.fa-plus {
+  float: right;
+  margin: 0 auto;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: white;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+  cursor: pointer;
+}
+
+li:nth-child(2n) {
+  background: #f7f7f7;
+}
+
+li span {
+  background: #e74c3c;
+  height: 40px;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+  width: 0;
+  display: inline-block;
+  transition: 0.2s linear;
+  opacity: 0;
+  cursor: pointer;
+}
+
+li:hover span {
+  width: 40px;
+  opacity: 1.0;
+}
+
+.completed {
+  color: gray;
+  text-decoration: line-through;
+}
+/* End of Todo List Styles */
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/d12f1a50c3.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="jQueryTodo.css">
+	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobileStyle.css" />
+    <title>jQuery Todo List</title>
+</head>
+<body>
+	<header class="header">
+		<h1>
+			<i>To-Do <span>List</span></i>
+		</h1>
+		<div class="bottomLines">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		</div>
+		<div id="guide">
+			<h2 id="how">How to use?</h2>
+			<ol>
+				<li id="guideList">To add To-Do just click the <i id="guidePlus" class="fas fa-plus"></i>
+				<li id="guideList">To remove a To-Do just click the trash icon.</li>
+				<li id="guideList">To mark a To-Do done just click on it.</li>
+			</ol>	
+		</div>
+	</header>
+
+	<div class="container">
+		<h2>My To-Do's <i class="fas fa-plus"></i></h2>
+		<input type="text" placeholder="Insert your To-Do">
+
+		<ul>
+			
+		</ul>
+	</div>
+<script type="text/javascript" src="jQueryTodo.js"></script>    
+</body>
+</html>
